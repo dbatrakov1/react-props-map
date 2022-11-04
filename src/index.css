@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
+.main--cards{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.card{
+  width: 470px;
+  height: 168px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.card--img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.card--info{
+  padding: 15px ;
+}
+.card--google{
+  margin-left: 10px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  color: #918E9B;
+}
+.card--location{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+}
+.card--title{
+  margin: 0;
+  display: flex;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+.card--date{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+}
+.card--description{
+  display: flex;
+  text-align: start;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  
+  
+  color: #2B283A;
 }
